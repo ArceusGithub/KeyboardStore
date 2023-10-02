@@ -1,0 +1,73 @@
+body, html {
+    font-size: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.15em;
+    background-image: url('keybg1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 1.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+
+}
+#page {
+    max-width: 1040px;
+    min-width: 920px;
+    margin: 55px auto 55px auto;
+    padding: 40px;
+    border: 4px double #000000;
+    background: linear-gradient(to bottom, #adb5bd 0%, #e9ecef 79%);
+}
+#logo {
+    width: 150px;
+    margin: 10px auto 25px auto;
+}
+ul{
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid rgb(80, 78, 78);
+    border-bottom: 1px solid rgb(85, 82, 82);
+    text-align: center;
+}
+img.img2{
+    box-shadow: 2px 2px 5px rgb(255, 0, 242);
+}
+p.text {
+ border: 1px solid black;
+ padding: 15px;
+ width: 570px;
+ margin: 0px auto 0px auto;
+ text-shadow: 2px 2px 5px rgb(255, 0, 251);
+}
+li {
+    display: inline;
+    margin: 0px 9px;
+    text-shadow: 2px 2px 5px rgb(255, 0, 247);
+}
+p {
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+    text-shadow: 0 0 3px #e5b3fe
+
+}
+#pic {
+    box-shadow: 2px 2px 2px 2px;
+}
+a {
+    color: #240046;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+}
+a:hover, a.on {
+    color: #4361ee;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
